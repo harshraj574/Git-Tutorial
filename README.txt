@@ -23,3 +23,7 @@ this is the bad code.
 
  12. Diff b/w git rm and git restore
  ans: -> if you want the whole file back to the untracked state i.e in the working area , then we do git rm, otherwise if we just want changes to be moved in the working area or staging area then we get restore.
+
+13. 'git diff commit1 commit2' -> gives the differnce of all file changes between two commits.
+
+14. 'git commit -m "your commit message"' -> if you want to avoid opening a text editor like vim/nano to add a commit message use this command.
