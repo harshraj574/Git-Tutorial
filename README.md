@@ -40,3 +40,7 @@ this is the bad code.
 
 NOTE: The name of the remote connection is always used to establish communication between the repos.
 
+20. 'git add <file1> <file2> <file3>' : this command will add multiple file changes together to the staging area
+
+21. 'git add .' : this command to add all files from working area to staging area
+
