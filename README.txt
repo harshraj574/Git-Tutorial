@@ -15,3 +15,8 @@
 8. 'git commit' -> registers staging changes to a commit.
 
 9. 'git log' -> list downs all the commits of the repository.Press 'q' to exit out of the git log.
+
+10. 'git restore <file>' -> it removes all files chnages from the staging area to be committed.This can be useful, if we did some dirty piece of code and now no more want it.Instead of deleting every change line by line, we can restore it or you can restore last clean version of the file/ last commit.
+
+11. 'git restore --staged <file>' ->It removes file from changes from staging area to working area.
+this is the bad code.
